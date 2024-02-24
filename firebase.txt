@@ -1,0 +1,39 @@
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkIjp7InVpZCI6ImMxZjg0ZGZmLTMzYjEtNDhmNi05NzUwLTVjM2NkYWI0ZWEwZiIsInByb2plY3QiOiJnbG9iYWwzIiwiZGV2ZWxvcGVyIjoicm9oaXR0b25kYXJlMTQ6UlRAZ21haWw6Y29tIn0sInYiOjAsImV4cCI6MTY3MzQ0NjU0NjEsImlhdCI6MTU4NzE2MzA2MX0.iWsGtqtrgecvnkNp0Ajd-35ieh6aCOmQAcIMvfGzBkU
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBq0wUtPtDzN1KfPi_7uG6DDt9Y2OgoYqY",
+    authDomain: "global-test-519b0.firebaseapp.com",
+    databaseURL: "https://global-test-519b0.firebaseio.com",
+    projectId: "global-test-519b0",
+    storageBucket: "global-test-519b0.appspot.com",
+    messagingSenderId: "963128113216",
+    appId: "1:963128113216:web:1f843f49f069fd28e087a5",
+    measurementId: "G-WM2S01LTGE"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+
+
+
+{
+	apiKey: "AIzaSyBq0wUtPtDzN1KfPi_7uG6DDt9Y2OgoYqY",
+	authDomain: "global-test-519b0.firebaseapp.com",
+	databaseURL: "https://global-test-519b0.firebaseio.com",
+	projectId: "global-test-519b0",
+	storageBucket: "global-test-519b0.appspot.com",
+	messagingSenderId: "963128113216"
+}

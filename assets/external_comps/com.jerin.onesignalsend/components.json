@@ -1,0 +1,180 @@
+[{
+ "categoryString": "EXTENSION",
+ "nonVisible": "true",
+ "iconName": "http://res.cloudinary.com/gdguru111/image/upload/c_scale,h_45/v1507471067/onesignalsend_cwmzee.png",
+ "methods": [
+  {
+   "deprecated": "false",
+   "name": "SendBySegment",
+   "description": "Send push notification",
+   "params": [
+    {
+     "name": "segment",
+     "type": "text"
+    },
+    {
+     "name": "title",
+     "type": "text"
+    },
+    {
+     "name": "message",
+     "type": "text"
+    },
+    {
+     "name": "smallicon",
+     "type": "text"
+    },
+    {
+     "name": "largeicon",
+     "type": "text"
+    },
+    {
+     "name": "bigpicture",
+     "type": "text"
+    },
+    {
+     "name": "launchurl",
+     "type": "text"
+    },
+    {
+     "name": "groupkey",
+     "type": "text"
+    },
+    {
+     "name": "groupmessage",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "SendToPlayer",
+   "description": "Send message to specific player",
+   "params": [
+    {
+     "name": "playerid",
+     "type": "text"
+    },
+    {
+     "name": "title",
+     "type": "text"
+    },
+    {
+     "name": "message",
+     "type": "text"
+    },
+    {
+     "name": "smallicon",
+     "type": "text"
+    },
+    {
+     "name": "largeicon",
+     "type": "text"
+    },
+    {
+     "name": "bigpicture",
+     "type": "text"
+    },
+    {
+     "name": "launchurl",
+     "type": "text"
+    },
+    {
+     "name": "groupkey",
+     "type": "text"
+    },
+    {
+     "name": "groupmessage",
+     "type": "text"
+    }
+   ]
+  }
+ ],
+ "blockProperties": [
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "AccentColour",
+   "description": "Returns the icon's background color",
+   "type": "number"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "ApiKey",
+   "description": "Your changed appid",
+   "type": "text"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "AppId",
+   "description": "Your changed appid",
+   "type": "text"
+  }
+ ],
+ "helpUrl": "",
+ "type": "com.jerin.onesignalsend.OneSignalSend",
+ "version": "4",
+ "external": "true",
+ "showOnPalette": "true",
+ "name": "OneSignalSend",
+ "helpString": "<h4>An extension to send push notitfications using onesignal api.<br />Made by Jerin Jacob.<h4><a href = \"https://community.thunkable.com/t/extension-onesignalsend/8767\" target = \"_blank\">More Information<\/a> <br /> <iframe width=\"280\" height=\"350\" src=\"https://tawk.to/chat/5989a81a1b1bed47ceb03925/default/?$_tawk_popout=true\"><\/iframe>",
+ "properties": [
+  {
+   "defaultValue": "&H00000000",
+   "name": "AccentColour",
+   "editorType": "color"
+  },
+  {
+   "defaultValue": "",
+   "name": "ApiKey",
+   "editorType": "string"
+  },
+  {
+   "defaultValue": "",
+   "name": "AppId",
+   "editorType": "string"
+  }
+ ],
+ "events": [
+  {
+   "deprecated": "false",
+   "name": "AfterSendById",
+   "description": "After send by player id",
+   "params": [
+    {
+     "name": "response",
+     "type": "number"
+    },
+    {
+     "name": "notificationid",
+     "type": "text"
+    },
+    {
+     "name": "recipients",
+     "type": "number"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "AfterSendBySegments",
+   "description": "Event after message has been send by segments.",
+   "params": [
+    {
+     "name": "response",
+     "type": "number"
+    },
+    {
+     "name": "notificationid",
+     "type": "text"
+    },
+    {
+     "name": "recipients",
+     "type": "number"
+    }
+   ]
+  }
+ ]
+}]

@@ -1,0 +1,252 @@
+{
+  "material" : {
+    "Company1" : {
+      "Product1" : 0,
+      "Product2" : 10,
+      "Product3" : 0,
+      "Product4" : 0
+    },
+    "Company2" : {
+      "prod1" : 0,
+      "prod2" : 0,
+      "prod3" : 0
+    },
+    "Company3" : {
+      "p1" : 0,
+      "p2" : 0
+    }
+  },
+  "sites" : {
+    "Site 1" : {
+      "Material" : {
+        "Company1" : {
+          "Product1" : 0,
+          "Product2" : 100
+        },
+        "Company2" : {
+          "prod1" : 0,
+          "prod2" : {
+            "OrderConfirmed" : {
+              "Date" : "12/12/12",
+              "Quantity" : 2,
+              "Vendor" : "xyz"
+            },
+            "OrderReceived" : {
+              "ChallanNo" : "\"s\"",
+              "Date" : "\"09\\/05\\/2020\"",
+              "DeliveryNo" : "\"a\"",
+              "Quantity" : "-3",
+              "Time" : "\"10:21 PM\"",
+              "Username" : "\"rohit t\"",
+              "Vendor" : "\"g\""
+            },
+            "PendingOrder" : {
+              "Date" : "\"09\\/05\\/2020\"",
+              "Quantity" : "20",
+              "Time" : "\"9:40 PM\"",
+              "Username" : "\"rohit t\""
+            }
+          },
+          "prod3" : 0
+        }
+      },
+      "engineers" : {
+        "Rohit Tondare" : {
+          "IN" : {
+            "Date" : "\"04\\/05\\/2020\"",
+            "IN_Address" : "\"Patil Estate, Shivajinagar, Pune, Maharashtra 411005, India\\n\"",
+            "IN_Latitude" : "18.531638799999996",
+            "IN_Longitude" : "73.85471219999998",
+            "IN_time" : "\"9:59 PM\""
+          },
+          "OUT" : {
+            "Date" : "\"04\\/05\\/2020\"",
+            "OUT_Address" : "\"Patil Estate, Shivajinagar, Pune, Maharashtra 411005, India\\n\"",
+            "OUT_Latitude" : "18.531638799999996",
+            "OUT_Longitude" : "73.85471219999998",
+            "OUT_time" : "\"9:59 PM\""
+          }
+        },
+        "mom" : {
+          "IN" : {
+            "Date" : "\"04\\/05\\/2020\"",
+            "IN_Address" : "\"Patil Estate, Shivajinagar, Pune, Maharashtra 411005, India\\n\"",
+            "IN_Latitude" : "18.5315694",
+            "IN_Longitude" : "73.8547421",
+            "IN_time" : "\"10:51 PM\""
+          },
+          "OUT" : {
+            "Date" : "\"04\\/05\\/2020\"",
+            "OUT_Address" : "\"Patil Estate, Shivajinagar, Pune, Maharashtra 411005, India\\n\"",
+            "OUT_Latitude" : "18.5315694",
+            "OUT_Longitude" : "73.8547421",
+            "OUT_time" : "\"10:51 PM\""
+          }
+        },
+        "name1" : {
+          "Date" : 0,
+          "IN_time" : 0,
+          "OUT_time" : 0
+        },
+        "rohit" : {
+          "Date" : "\"28\\/04\\/2020\"",
+          "IN_time" : "\"1:17 PM\"",
+          "OUT_time" : "\"1:17 PM\""
+        },
+        "rori" : {
+          "IN" : {
+            "Date" : "\"04\\/05\\/2020\"",
+            "IN_Address" : "\"CoEP - Academic Complex (Primary), Shivajinagar, Pune, Maharashtra 411005, India\\n\"",
+            "IN_Latitude" : "18.5313724",
+            "IN_Longitude" : "73.8556897",
+            "IN_time" : "\"10:07 PM\""
+          },
+          "OUT" : {
+            "Date" : "\"04\\/05\\/2020\"",
+            "OUT_Address" : "\"Patil Estate, Shivajinagar, Pune, Maharashtra 411005, India\\n\"",
+            "OUT_Latitude" : "18.5315665",
+            "OUT_Longitude" : "73.8547475",
+            "OUT_time" : "\"10:05 PM\""
+          }
+        }
+      },
+      "workers" : {
+        "Worker 3" : {
+          "Aadhaar" : "\"65346\"",
+          "Address" : "\"hsjanans\"",
+          "Attendance" : "\"1\"",
+          "DOB" : "\"4.5.2020\"",
+          "Date" : "\"04\\/05\\/2020\"",
+          "Gender" : "\"male\"",
+          "HalfDay" : "\"0\"",
+          "Mobile" : "\"94646595\"",
+          "OverTime" : "\"18:29\"",
+          "Type" : "\"mason\""
+        },
+        "Worker1" : {
+          "Aadhaar" : 0,
+          "Address" : 0,
+          "Attendance" : "\"0\"",
+          "DOB" : 0,
+          "Date" : "\"04\\/05\\/2020\"",
+          "Gender" : 0,
+          "HalfDay" : "\"0\"",
+          "Mobile" : 0,
+          "OverTime" : "\"\"",
+          "Type" : "Mason"
+        },
+        "Worker2" : {
+          "Attendance" : "\"1\"",
+          "Date" : "\"04\\/05\\/2020\"",
+          "HalfDay" : "\"0\"",
+          "OverTime" : "\"21:28\"",
+          "Type" : "Helper"
+        }
+      }
+    },
+    "a" : {
+      "engineers" : {
+        "rohit" : {
+          "Date" : "\"\"",
+          "IN_time" : "\"\""
+        }
+      }
+    },
+    "aaaaaaaaaaaaaaaaaaaaa" : 0,
+    "site 4" : {
+      "engineers" : {
+        "User" : {
+          "IN" : {
+            "Date" : "\"02\\/05\\/2020\"",
+            "IN_Address" : "\"No address available\"",
+            "IN_Latitude" : "0",
+            "IN_Longitude" : "0",
+            "IN_time" : "\"1:46 PM\""
+          }
+        },
+        "sst" : {
+          "Date" : "\"29\\/04\\/2020\"",
+          "IN_time" : "\"8:12 AM\""
+        }
+      }
+    },
+    "site1" : 0,
+    "site2" : 0,
+    "site3" : {
+      "engineers" : {
+        "rohit" : {
+          "Date" : "\"25\\/04\\/2020\"",
+          "IN_time" : "\"5:34 PM\"",
+          "OUT_time" : "\"5:34 PM\""
+        }
+      },
+      "workers" : {
+        "keow" : {
+          "Aadhaar" : "\"55\"",
+          "Address" : "\"ddd\"",
+          "Attendance" : "\"0\"",
+          "DOB" : "\"26.4.2020\"",
+          "Date" : "\"25\\/04\\/2020\"",
+          "Gender" : "\"sje\"",
+          "HalfDay" : "\"0\"",
+          "Mobile" : "\"55\"",
+          "OverTime" : "\"\"",
+          "Type" : "\"dddaa\""
+        },
+        "xyz" : {
+          "Aadhaar" : "\"4946\"",
+          "Address" : "\"nsjsaja\"",
+          "Attendance" : "\"1\"",
+          "DOB" : "\"26.4.2020\"",
+          "Date" : "\"25\\/04\\/2020\"",
+          "Gender" : "\"male\"",
+          "HalfDay" : "\"0\"",
+          "Mobile" : "\"6564\"",
+          "OverTime" : "\"\"",
+          "Type" : "\"ksksk\""
+        }
+      }
+    }
+  },
+  "test" : 10,
+  "users" : {
+    "1587261445304" : {
+      "IN_time" : "\"5:34 PM\"",
+      "OUT_time" : "\"5:34 PM\"",
+      "approve" : "1",
+      "password" : "\"qqqq\"",
+      "points" : "0",
+      "username" : "\"rohit\""
+    },
+    "1588600699909" : {
+      "IN_time" : "\"10:07 PM\"",
+      "OUT_time" : "\"10:05 PM\"",
+      "approve" : "1",
+      "password" : "\"qqqq\"",
+      "points" : "0",
+      "username" : "\"rori\""
+    },
+    "1588607734229" : {
+      "IN_time" : "\"9:26 PM\"",
+      "OUT_time" : "\"9:27 PM\"",
+      "approve" : "1",
+      "password" : "\"qqqq\"",
+      "points" : "0",
+      "username" : "\"Rohit Tondare\""
+    },
+    "1588609056864" : {
+      "IN_time" : "\"9:59 PM\"",
+      "OUT_time" : "\"9:59 PM\"",
+      "approve" : "1",
+      "password" : "\"qqqq\"",
+      "points" : "0",
+      "username" : "\"Rohit Tondare\""
+    },
+    "1588953892904" : {
+      "approve" : "1",
+      "password" : "\"qqqq\"",
+      "points" : "0",
+      "username" : "\"rohit t\""
+    }
+  }
+}
